@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+
+}
+nav>a{
+    border: 1px solid black;
+       padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: azure;
+
+}
+nav>a:hover{
+    background-color: aqua;
+}

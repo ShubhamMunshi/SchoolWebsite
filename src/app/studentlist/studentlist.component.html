@@ -1,0 +1,36 @@
+<!-- <div>
+    <form #userForm="ngForm" (ngSubmit)="addEmp(userForm.value)">
+        <input type="text" placeholder="Enter id" name="id" #id="ngModel" [ngModel]="selectedemp?.id" required minlength="1"
+            pattern="[0-9]+">
+        <br>
+        <br>
+        <input type="text" placeholder="Enter name" name="name" #name="ngModel" [ngModel]="selectedemp?.name" required
+            minlength="1" pattern="[a-zA-Z\s]+">
+        <br>
+        <br>
+        <input type="text" placeholder="Enter age" name="age" #age="ngModel" [ngModel]="selectedemp?.age" required
+            minlength="1" pattern="[0-9]+">
+        <br>
+        <br>
+        @if(selectedemp){
+        <button>Update User</button>
+        }
+        @else{
+        <input type="submit" value="Add Student" [disabled]="userForm.invalid">
+
+        }
+    </form>
+
+    @for(e of empdata; track e.id){
+    <ul>
+        <li>
+            {{e.id}}
+            {{e.name}}
+            {{e.age}}
+            <button (click)="selectEmp(e.id)">Update</button> {{' '}}
+            <button (click)="deleteEmp(e.id)">Delete</button>
+        </li>
+    </ul>
+
+    }
+</div> -->

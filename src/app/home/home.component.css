@@ -1,0 +1,47 @@
+.home-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.banner {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.facility-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.facility {
+    width: 30%;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
