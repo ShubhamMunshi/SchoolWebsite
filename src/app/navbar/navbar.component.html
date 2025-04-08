@@ -1,9 +1,20 @@
 <nav>
-       <a routerLink="">HOME</a>
-        <a routerLink="/about">ABOUT US</a>
-        <a routerLink="/academics">ACADEMICS</a>
-        <a routerLink="/carrers">CARRERS</a>
-        <a routerLink="/contact">CONTACT US</a>
+       <a routerLink=""
+       [routerLinkActive]="['active']"
+       [routerLinkActiveOptions]="{ exact: true }"
+       >HOME</a>
+        <a routerLink="/about"
+        [routerLinkActive]="['active']"
+        >ABOUT US</a>
+        <a routerLink="/academics"
+        [routerLinkActive]="['active']"
+        >ACADEMICS</a>
+        <a routerLink="/carrers"
+        [routerLinkActive]="['active']"
+        >CARRERS</a>
+        <a routerLink="/contact"
+        [routerLinkActive]="['active']"
+        >CONTACT US</a>
 
 
  

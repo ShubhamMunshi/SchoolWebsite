@@ -1,20 +1,23 @@
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: black;
-    padding: 5px;
-
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5px;
 }
-nav>a{
-    border: 1px solid black;
-       padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: azure;
-
+a {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  color: black;
 }
-nav>a:hover{
-    background-color: aqua;
+
+.active {
+  font-size: bold;
+  font-weight: bold;
+  color: blue;
+  background-color: aqua;
 }
